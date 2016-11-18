@@ -189,6 +189,10 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
+" remap C-D and C-U
+map <S-j> <C-D>
+map <S-k> <C-U>
+
 " Close the current buffer
 map <leader>bd :Bclose<cr>
 
