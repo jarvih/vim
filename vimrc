@@ -101,6 +101,9 @@ set tm=500
 " Share system clipboard and register
 set clipboard=unnamed
 
+" Set mouse scroll on
+set mouse=a
+
 " Load pathogen
 "  execute pathogen#infect()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
