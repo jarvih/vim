@@ -333,8 +333,6 @@ Plugin 'https://github.com/vim-airline/vim-airline.git'
 Plugin 'https://github.com/ervandew/supertab.git'
 "Nerdtree
 Plugin 'https://github.com/scrooloose/nerdtree.git'
-" Nerdtree with tapbs
-Plugin 'https://github.com/jistr/vim-nerdtree-tabs.git'
 
 call vundle#end()
 
