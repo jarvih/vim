@@ -1,5 +1,1 @@
-bundle/Vundle.vim
-bundle/nerdtree
-bundle/supertab
-bundle/vim-airline
-bundle/vim-nerdtree-tabs
+.gitignore
