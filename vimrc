@@ -333,7 +333,8 @@ Plugin 'https://github.com/vim-airline/vim-airline.git'
 Plugin 'https://github.com/ervandew/supertab.git'
 "Nerdtree
 Plugin 'https://github.com/scrooloose/nerdtree.git'
-
+"Nerdcomment
+Plugin 'https://github.com/preservim/nerdcommenter'
 call vundle#end()
 
 
