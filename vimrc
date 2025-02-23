@@ -351,17 +351,6 @@ nmap <leader>n :NERDTreeToggle<CR>
 "Open NERDTree on startup for gui only if directory as argument
 let g:nerdtree_tabs_open_on_gui_startup=2
 
-"clang copletion
-let g:clang_auto_select = 1
-let g:clang_use_library=1
-let g:clang_library_path="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/"
-let g:clang_snippets=1
-let g:clang_snippets_engine='ultisnips'
-let g:clang_conceal_snippets=1
-let g:clang_periodic_quickfix=1
-let g:clang_hl_errors=1
-imap <C-Space> <C-n>
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Functions
