@@ -10,3 +10,6 @@
 [submodule "bundle/nerdcommenter"]
 	path = pack/plugins/start/nerdcommenter
 	url = https://github.com/preservim/nerdcommenter.git
+[submodule "pack/colors/start/jellybeans.vim"]
+	path = pack/colors/start/jellybeans.vim
+	url = https://github.com/nanotech/jellybeans.vim
