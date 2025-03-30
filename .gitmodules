@@ -1,15 +1,12 @@
-[submodule "bundle/Vundle.vim"]
-	path = bundle/Vundle.vim
-	url = https://github.com/VundleVim/Vundle.vim.git
 [submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
+	path = pack/plugins/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/supertab"]
-	path = bundle/supertab
+	path = pack/plugins/start/supertab
 	url = https://github.com/ervandew/supertab.git
 [submodule "bundle/vim-airline"]
-	path = bundle/vim-airline
+	path = pack/plugins/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
 [submodule "bundle/nerdcommenter"]
-	path = bundle/nerdcommenter
+	path = pack/plugins/start/nerdcommenter
 	url = https://github.com/preservim/nerdcommenter.git

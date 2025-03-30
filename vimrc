@@ -318,27 +318,6 @@ autocmd BufWritePost .vimrc source %
 autocmd BufEnter * if expand("%:p:h") !~ '^/tmp' | silent! lcd %:p:h | endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Plugin manager
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
-
-" Airline (powerline alternative)
-Plugin 'https://github.com/vim-airline/vim-airline.git'
-" Supertab
-Plugin 'https://github.com/ervandew/supertab.git'
-"Nerdtree
-Plugin 'https://github.com/scrooloose/nerdtree.git'
-"Nerdcomment
-Plugin 'https://github.com/preservim/nerdcommenter'
-call vundle#end()
-
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugin settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Start NERDTree if no file specified.
